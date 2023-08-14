@@ -1,2 +1,2 @@
 # popular_algos
-Implementation of popular algorithms
+Implementation of common algorithms
