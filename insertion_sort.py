@@ -2,10 +2,10 @@
 
 import time
 
-# Funtion return two values: first is sorted list and second time taken by the algorithm
+# Funtion return two values: first value is sorted list and second value is time taken by the algorithm
 
 def insertion_sort(arr: list) -> list:
-	start_time = time.time() # this is the start time to of the execution
+	start_time = time.time() # this is the start time of the execution
 	
 	for i, v in enumerate(arr):
 		j = i	
@@ -17,9 +17,6 @@ def insertion_sort(arr: list) -> list:
 	t = end_time - start_time # time taken for whole operation
 	return [arr, t ]
 		
-
-
-
 
 
 arr = [5,3,0, -1, 100,-32]
